@@ -604,6 +604,10 @@ span.borat {
         transform: scale(1.5); }
     .team__link--mgl {
       margin-left: 20px; }
+      .team__link--mg1:hover {
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5); }
     .team__link__ml {
       margin-left: 5px; }
   .team__slick1 {
