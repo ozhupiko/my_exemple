@@ -513,6 +513,9 @@ span.borat {
   background-size: cover;
   text-align: center;
   vertical-align: middle; }
+  @media (max-width: 768px) {
+    .works {
+      height: 845px; } }
   @media (max-width: 376px) {
     .works {
       height: 610px; } }
