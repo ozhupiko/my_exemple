@@ -89,6 +89,9 @@
 .slick-slide img
 {
     display: block;
+    max-width: 100%;
+    
+    
 }
 .slick-slide.slick-loading img
 {
@@ -116,4 +119,12 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+@media (max-width:768px) {
+    .slick-slide img
+    {
+       
+        
+        margin: auto;
+    }
 }

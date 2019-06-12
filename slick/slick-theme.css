@@ -187,11 +187,10 @@
 
     width: 20px;
     height: 20px;
-
-    content: '•';
+    content:url(../img/Shape.png);
     text-align: center;
 
-    opacity: .25;
+    opacity: 1;
     color: black;
 
     -webkit-font-smoothing: antialiased;
@@ -201,4 +200,6 @@
 {
     opacity: .75;
     color: black;
+   content: url(../img/Shape5.png) ;
+
 }
