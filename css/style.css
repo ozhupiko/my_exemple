@@ -31,7 +31,10 @@
     font-size: 20px;
     font-style: italic;
     border-color: white;
-    margin-top: 66px; }
+    margin-top: 66px;
+    position: relative;
+    z-index: 1;
+   }
     @media (max-width: 968px) {
       .btn__works {
         display: block;
