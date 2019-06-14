@@ -782,7 +782,10 @@ span.borat {
     background-color: #b3afd4; }
     .contact__scroll__img {
       padding: 0 18px;
-      padding-bottom: 40px; }
+      padding-bottom: 40px;
+    z-index: 1;
+    position: relative;
+    }
     .contact__scroll:hover {
       border-radius: 50%; }
     @media (max-width: 376px) {
