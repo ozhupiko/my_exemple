@@ -260,7 +260,7 @@
           var marker = new google.maps.Marker({
             position:  mapCenterMarker,
             map: map,
-            icon: "./img/Pin.png"
+            icon: "../img/Pin.png"
             
           });
         });
@@ -340,7 +340,7 @@ responsive: [
     settings: {
   slidesToShow: 1,
   slidesToScroll: 1,
-
+  dots: true,
       mobileFirst:true
       }
     }]

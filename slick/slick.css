@@ -104,7 +104,14 @@
 .slick-initialized .slick-slide
 {
     display: block;
+    margin-left: 2px;
 }
+@media (max-width:578px) {
+    .slick-initialized .slick-slide
+    {
+        
+        margin-left: 4px;
+    }
 .slick-loading .slick-slide
 {
     visibility: hidden;
